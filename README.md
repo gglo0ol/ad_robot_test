@@ -14,10 +14,4 @@ this is test case for Ad robot
 python main.py <url>
 ```
 
-Например:
-
-```bash
-python main.py https://upload.wikimedia.org/wikipedia/commons/3/3f/Fronalpstock_big.jpg
-```
-
 Скрипт делает 10 последовательных запросов и выводит среднее время запроса и скорость загрузки в МБ/с. Используются только стандартные библиотеки, устанавливать ничего не нужно. Количество запросов задаётся константой `COUNT_REQUEST` в `main.py`.
